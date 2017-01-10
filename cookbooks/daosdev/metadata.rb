@@ -18,4 +18,6 @@ version '0.2.0'
 #
 # source_url 'https://github.com/<insert_org_here>/daosdev' if respond_to?(:source_url)
 
+
+depends 'yum'
 depends 'yum-epel'
