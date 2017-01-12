@@ -25,11 +25,9 @@ EOH
         owner "root"
         group "root"
         mode 0644
-        notifies :restart, 'service[network]', :delayed
     end
 else
     file '/etc/profile.d/proxy.sh' do
         action :delete
-        notifies :restart, 'service[network]', :delayed
     end
 end

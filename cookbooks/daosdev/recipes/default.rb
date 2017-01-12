@@ -27,3 +27,9 @@ package ['autoconf',
         'git',
         'librdmacm-devel'
 ]
+
+# For Golang
+package ['golang',
+        'pcre-devel',
+        'glibc-static',
+        'which']
